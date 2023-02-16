@@ -50,9 +50,10 @@ const Services = () => {
           Metas de nível de serviço
         </h1>
         <h2 className="text-lg font-medium text-white text-center px-5">
-          A medida da prestação dos serviços de atendimento ao usuário é por resultado, ou seja, é
-          efetuada a cada solicitação dos usuários e consolidada mensalmente
-          conforme indicadores de níveis de serviço supracitados
+          A medida da prestação dos serviços de atendimento ao usuário é por
+          resultado, ou seja, é efetuada a cada solicitação dos usuários e
+          consolidada mensalmente conforme indicadores de níveis de serviço
+          supracitados
         </h2>
       </div>
 
@@ -157,12 +158,36 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="w-4/6 flex justify-center items-center p-5 bg-slate-600/70 border-2 border-slate-500 rounded-lg my-5">
-        <h2 className="text-base text-white text-center">
-          O serviço de atendimento e suporte ao usuário de TI da JFAP possui
-          preço fixo mensal, ou seja, a empresa contratada não recebe por
-          demanda de chamados.
-        </h2>
+      <div className="w-4/6 flex flex-col justify-center items-center p-5 bg-slate-600/70 border-2 border-slate-500 rounded-lg my-5">
+          <h2 className="text-xl text-bold text-white text-center">
+            Observações
+          </h2>
+          <ul>
+            <li className="text-xs text-white my-3">
+              O serviço de atendimento e suporte ao usuário de TI da JFAP possui
+              preço fixo mensal, ou seja, a empresa contratada não recebe por
+              demanda de chamados.
+            </li>
+            <li className="text-xs text-white my-3">
+              Níveis de serviço são critérios objetivos e mensuráveis
+              estabelecidos visando aferir e avaliar diversos fatores
+              relacionados com os serviços contratados, como qualidade,
+              desempenho, disponibilidade, custo, abrangência, segurança e
+              etc...
+            </li>
+            <li className="text-xs text-white my-3">
+              Os indicadores de níveis de serviço materializam a mensuração dos
+              níveis de serviço, tendo sido definidos de acordo com a natureza e
+              características de cada serviço.
+            </li>
+            <li className="text-xs text-white my-3">
+              As metas são medidas do primeiro ao último dia de cada mês
+            </li>
+            <li className="text-xs text-white my-3">
+              Os níveis de serviços são aferidos mensalmente, considerando as
+              solicitações encerradas entre o primeiro e o último dia do mês.
+            </li>
+          </ul>
       </div>
     </div>
   );
